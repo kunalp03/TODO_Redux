@@ -1,5 +1,3 @@
-That's correct. When you call `dispatch` from your `Task.jsx` component, the action does not go directly to `store.js`. Instead, it goes through a series of steps in the Redux flow, and the central piece in this flow is the Redux store.
-
 Here's a simplified breakdown:
 
 1. **Action Dispatched:**
